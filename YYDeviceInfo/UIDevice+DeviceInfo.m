@@ -102,6 +102,15 @@
         ||[deviceString isEqualToString:@"iPhone9,3"])    return @"iPhone 7";
     if ([deviceString isEqualToString:@"iPhone9,2"]
         ||[deviceString isEqualToString:@"iPhone9,4"])   return @"iPhone 7 Plus";
+
+    if ([deviceString isEqualToString:@"iPhone10,1"]
+        ||[deviceString isEqualToString:@"iPhone10,4"])   return @"iPhone 8";
+    if ([deviceString isEqualToString:@"iPhone10,2"]
+        ||[deviceString isEqualToString:@"iPhone10,5"])   return @"iPhone 8 Plus";
+    if ([deviceString isEqualToString:@"iPhone10,3"]
+        ||[deviceString isEqualToString:@"iPhone10,6"])   return @"iPhone X";
+    
+    
     
     //ipod
     if ([deviceString isEqualToString:@"iPod1,1"])   return @"iPod Touch 1G";
